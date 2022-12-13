@@ -1,0 +1,97 @@
+.logo{
+    width: 20%;
+    height: 250px;
+    background: rgba(236, 240, 243, 0.95);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 10px #CBCED1, 
+    -8px -8px 16px #FFF;
+}
+
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+
+.table{
+    box-shadow: 5px 5px 10px #CBCED1, 
+    -8px -8px 16px #FFF;
+    background: rgba(236, 240, 243, 0.95);
+    border-radius: 20px;
+    margin-top: 30px;
+    padding: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.table table{
+    width: 100%;
+}
+
+.table table tbody tr{
+    text-align: center;
+    font-size: 0.8rem;
+    color: grey;
+}
+
+.table thead th{
+    padding-bottom: 20px;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.board{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.board p{
+    font-size: 0.8rem;
+    color: maroon;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.board input[type="text"]{
+    width: 300px;
+    height: 20px;
+    border-radius: 5px;
+    background: white;
+    border: 2px solid rgba(0, 0, 255, 0.4);
+    outline: none;
+}
+
+.board input[type="text"]:focus{
+    border: 2px solid rgba(0, 0, 255, 0.8);
+}
+
+.board input[type="file"]{
+    width: 300px;
+    height: 20px;
+    border-radius: 5px;
+    background: white;
+    border: 2px solid rgba(236, 240, 243, 0.95);
+    outline: none;
+}
+.board form{
+    margin-top: 30px;
+}
+
+.board input{
+    margin-right: 20px;
+}
+
+.board input[type="submit"]{
+    width: 100px;
+    height: 25px;
+    background: lightgreen;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
